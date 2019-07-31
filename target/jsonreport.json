@@ -1,0 +1,77 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "login with valid data",
+        "description": "",
+        "id": "login-functionality;login-with-valid-data",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 16203632100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user opens chrome browser and opens application",
+            "match": {
+              "location": "Stepdef.user_opens_chrome_browser_and_opens_application()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 366444800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user entering username as \"mercury\" And password in field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mercury\"",
+                  "offset": 26
+                }
+              ],
+              "location": "Stepdef.user_entering_username_as_And_password_as(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 20613604000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user clicks on signin button",
+            "match": {
+              "location": "Stepdef.user_clicks_on_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 324289200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify login result",
+            "match": {
+              "location": "Stepdef.verify_login_result()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login functionality",
+    "description": "Description: Registered user login to the application by entering valid credentials\nMapping: John would like to access the online shopping page. He should be registered and use the registerd credentials to get logged in to the application",
+    "id": "login-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Scenario1/SampleScenario.feature",
+    "tags": []
+  }
+]
